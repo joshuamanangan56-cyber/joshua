@@ -1,0 +1,37 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+}
+
+/* Page background */
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  background: linear-gradient(135deg, #20b2aa, #6dd5c8);
+}
+
+/* Card */
+div {
+  background: #ffffff;
+  max-width: 650px;
+  width: 90%;
+  padding: 3rem;
+  border-radius: 18px;
+
+  text-align: center;
+
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.9s ease;
+}
+
+/* Headings */
+h1 {
+  margin-top: 0;
+  font-size: 2.
+}
